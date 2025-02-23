@@ -80,8 +80,11 @@ http://localhost:3000
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/e87beed6-3b3b-4a81-aab6-2b77c6dfbf6c)
+
 ![image](https://github.com/user-attachments/assets/039cc3c2-b726-4daf-9b54-8573add267fe)
+
 ![image](https://github.com/user-attachments/assets/a8257a52-306f-4237-8109-d6e9088c8c62)
+
 ![image](https://github.com/user-attachments/assets/ae8644b7-c9da-4cd5-aedf-672147160f21)
 
 
