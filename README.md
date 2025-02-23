@@ -66,7 +66,10 @@ cd TODO-List-Using-MERN-Stack
 ### Running the Application
 Once both frontend and backend servers are running, open your browser and navigate to:
 ```
+frontend:
 http://localhost:3000
+backend:
+http://localhost:8000
 ```
 
 ## API Endpoints
