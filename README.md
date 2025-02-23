@@ -11,7 +11,7 @@ This is a simple TODO List application built using the MERN (MongoDB, Express, R
 - Responsive UI
 
 ## Tech Stack
-- **Frontend:** React.js, HTML, CSS, Bootstrap
+- **Frontend:** React.js, JavaScript, HTML, CSS, Bootstrap
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (Mongoose ORM)
 
