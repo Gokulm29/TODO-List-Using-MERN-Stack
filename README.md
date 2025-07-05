@@ -1,111 +1,48 @@
-# TODO List Using MERN Stack
+# TODO List Web App (MERN Stack)
 
-## Overview
-This is a simple TODO List application built using the MERN (MongoDB, Express, React, Node.js) stack. The application allows users to create, update, and delete tasks efficiently.
+This is a feature-rich TODO List application built using the MERN stack. It supports:
+- User authentication (Email/Password & Google Sign-in)
+- Task management (Create, Edit, Delete)
+- Filters (Due Today, Overdue, Priority, Status)
+- Task sharing with other users
+- Fully responsive UI
 
-## Features
-- Add new tasks
-- Mark tasks as completed
-- Edit existing tasks
-- Delete tasks
-- Responsive UI
+## 🔗 Live Demo
+https://todo-client-rose.vercel.app
 
-## Tech Stack
-- **Frontend:** React.js, JavaScript, HTML, CSS, Bootstrap
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose ORM)
+## 🚀 Features
+- Google and Email/Password Authentication using Firebase
+- Create, edit, delete and toggle task status
+- Task filter (due today, overdue, priority, status)
+- Firebase Authentication + MongoDB storage
+- Responsive and clean UI using Bootstrap
+- Secure backend using Node.js + Express.js
 
-## Installation
-
-### Prerequisites
-Ensure you have the following installed:
+## 🛠️ Tech Stack
+- React.js
 - Node.js
-- MongoDB
+- Express.js
+- MongoDB (Mongoose)
+- Firebase Authentication
+- Vercel (Frontend Hosting)
+- Render / Railway / Cyclic (Backend Hosting)
 
-### Steps to Run the Project
+## 📸 Architecture Diagram
+![image](https://github.com/user-attachments/assets/0f8d98a0-88ce-4367-badb-0442e8e9ef26)
 
-#### Clone the Repository
-```sh
-git clone https://github.com/Gokulm29/TODO-List-Using-MERN-Stack.git
-cd TODO-List-Using-MERN-Stack
-```
-
-#### Backend Setup
-1. Navigate to the `backend` folder:
-   ```sh
-   cd backend
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Create a `.env` file and add the following (modify as needed):
-   ```env
-   MONGO_URI=your_mongodb_connection_string
-   PORT=5000
-   ```
-4. Start the backend server:
-   ```sh
-   npm start
-   ```
-
-#### Frontend Setup
-1. Navigate to the `frontend` folder:
-   ```sh
-   cd frontend
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the React app:
-   ```sh
-   npm start
-   ```
-
-### Running the Application
-Once both frontend and backend servers are running, open your browser and navigate to:
-```
-frontend:
-http://localhost:3000
-backend:
-http://localhost:8000
-```
-
-## API Endpoints
-### Task Management
-| Method | Endpoint      | Description          |
-|--------|--------------|----------------------|
-| GET    | `/tasks`     | Fetch all tasks      |
-| POST   | `/tasks`     | Create a new task    |
-| PUT    | `/tasks/:id` | Update a task        |
-| DELETE | `/tasks/:id` | Delete a task        |
-
-## Screenshots
-![image](https://github.com/user-attachments/assets/e87beed6-3b3b-4a81-aab6-2b77c6dfbf6c)
-
-![image](https://github.com/user-attachments/assets/039cc3c2-b726-4daf-9b54-8573add267fe)
-
-![image](https://github.com/user-attachments/assets/a8257a52-306f-4237-8109-d6e9088c8c62)
-
-![image](https://github.com/user-attachments/assets/ae8644b7-c9da-4cd5-aedf-672147160f21)
+## 📹 Loom Video Walkthrough
 
 
-## Deployment
-You can deploy the application using:
-- Frontend: Vercel / Netlify
-- Backend: Render / Heroku
-- Database: MongoDB Atlas
+## 📌 Assumptions
+- The app assumes every task must belong to one user (userEmail is mandatory)
+- All tasks created via Google login are scoped only to that user's email
+- Priority defaults to "low" unless set manually
+- Shared task functionality allows read-only visibility for now
 
-## Contributing
-Feel free to fork this repository and contribute by submitting a pull request.
+## 🧪 Running Locally
 
-## License
-This project is licensed under the MIT License.
-
----
-
-Happy Coding! 🚀
-
-GOKUL M - AI & DS
-
+### Backend
+```bash
+cd server
+npm install
+npm run dev
