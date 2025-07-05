@@ -1,11 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import Todo from './Todo';
+import React, { useState, useEffect } from "react";
+import Todo from "./Todo";
+import LoginPage from "./LoginPage";
+import { auth } from "./firebase";
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe(); // clean up
+  }, []);
+
   return (
     <div className="container">
-      <Todo/>
+      {user ? <Todo /> : <LoginPage />}
     </div>
   );
 }

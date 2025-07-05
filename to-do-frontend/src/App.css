@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+.dark-bg {
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+.dark-input {
+  background-color: #2a2a40;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.dark-input::placeholder {
+  color: #aaa;
+}
+
+.btn-add {
+  color: #ff70a6;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.task-card {
+  background-color: #121221;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn-edit {
+  color: #ff4ea0;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-save {
+  color: #4ef4b0;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-delete {
+  color: #ff4e4e;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+}
