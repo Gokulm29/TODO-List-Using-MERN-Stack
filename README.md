@@ -30,9 +30,6 @@ https://todo-client-rose.vercel.app
 ## 📸 Architecture Diagram
 ![image](https://github.com/user-attachments/assets/0f8d98a0-88ce-4367-badb-0442e8e9ef26)
 
-## 📹 Loom Video Walkthrough
-
-
 ## 📌 Assumptions
 - The app assumes every task must belong to one user (userEmail is mandatory)
 - All tasks created via Google login are scoped only to that user's email
@@ -46,3 +43,14 @@ https://todo-client-rose.vercel.app
 cd server
 npm install
 npm run dev
+
+**cd client**
+npm install
+npm start
+
+This project is a part of a hackathon run by
+https://www.katomaran.com
+
+
+
+**by Gokul M**
