@@ -30,6 +30,12 @@ https://todo-client-rose.vercel.app
 ## 📸 Architecture Diagram
 ![image](https://github.com/user-attachments/assets/0f8d98a0-88ce-4367-badb-0442e8e9ef26)
 
+Login page
+![image](https://github.com/user-attachments/assets/8def286d-627f-4405-b648-7a7efe5cf73d)
+
+TODO page
+![image](https://github.com/user-attachments/assets/c26e31a2-b598-482c-bb13-92f0f66311c3)
+
 ## 📌 Assumptions
 - The app assumes every task must belong to one user (userEmail is mandatory)
 - All tasks created via Google login are scoped only to that user's email
