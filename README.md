@@ -8,7 +8,7 @@ This is a feature-rich TODO List application built using the MERN stack. It supp
 - Fully responsive UI
 
 ## 🔗 Live Demo
-https://todo-client-rose.vercel.app
+https://todo-list-using-mern-stack.vercel.app/
 
 ## 🚀 Features
 - Google and Email/Password Authentication using Firebase
